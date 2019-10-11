@@ -7,15 +7,10 @@
 #SBATCH --partition=lrgmem
 #SBATCH --mem-per-cpu=20G
 
-ml qiime2/2018.8
-export TMPDIR='/scratch/users/t-sprehei1@jhu.edu/tmp'
-export LC_ALL=en_US.utf-8
-export LANG=en_US.utf-8
-
 mkdir qiime2-moving-pictures-tutorial
 cd qiime2-moving-pictures-tutorial
 
-wget \
+wget 
   -O "sample-metadata.tsv" \
   "https://data.qiime2.org/2018.8/tutorials/moving-pictures/sample_metadata.tsv"
 

@@ -13,6 +13,8 @@ cd qiime2-moving-pictures-tutorial
 wget 
   -O "sample-metadata.tsv" \
   "https://data.qiime2.org/2018.8/tutorials/moving-pictures/sample_metadata.tsv"
+  
+mkdir emp-single-end-sequences
 
 wget \
   -O "emp-single-end-sequences/barcodes.fastq.gz" \
